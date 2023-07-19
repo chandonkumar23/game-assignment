@@ -186,7 +186,8 @@ li{
      justify-content: center;
      align-items: center;
      padding: 10px 0;
-    margin: auto;
+     margin: auto;
+     
     
  
 }
@@ -194,7 +195,7 @@ li{
 
 
 .online-img img{
-    height: 300px;
+    height: 250px;
     border-radius: 20px;
     
   
