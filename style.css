@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
 .container{
     display: flex;
@@ -187,11 +188,17 @@ li{
      align-items: center;
      padding: 10px 0;
      margin: auto;
+     max-width: 900px;
      
     
  
 }
-
+.content-img p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin: 10px 0;
+    padding: 10px;
+}
 
 
 .online-img img{
@@ -206,6 +213,7 @@ li{
     left: -140px;
     font-size: 2rem;
     opacity: 0;
+    top: -40px;
    
     
     }
@@ -541,6 +549,12 @@ li{
    .g-item{
     padding:0 10px;
    }
+  .content-img p{
+   margin: auto;
+   width: auto;
+
+
+  }
    
    
     
