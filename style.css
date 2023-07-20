@@ -198,6 +198,7 @@ li{
     height: 270px;
     border-radius: 20px;
     
+    
   
 }
 .opcity{
@@ -205,12 +206,15 @@ li{
     left: -140px;
     font-size: 2rem;
     opacity: 0;
+   
     
     }
   
 
 .opcity:hover{
     opacity: 1;
+   
+    
 
 }
  .watch{
@@ -224,6 +228,8 @@ li{
  }
  .opcity i{
     color: rgb(246, 234, 234);
+   
+    
  }
  /* play instantly secton style */
  .instantly-section{
@@ -265,16 +271,20 @@ li{
     justify-content: center;
     align-items: center;
     min-height: 200px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    padding: 10px 20px;
     
 }
 .g-item{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
     border-radius: 30px;
     background-color: white;
-    padding: 0 15px;
+    padding: 5px 20px;
     
 } 
 .game2-item{
@@ -521,35 +531,29 @@ li{
         
     }
    .game-item{
-    opacity: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: auto;
+    padding: 20px;
+    
+    
    }
-    .g-item{
-        display: flex;
-        justify-content:space-around;
-        align-items: center;
-        gap: 2px;
-        border-radius: 30px;
-        background-color: white;
-        margin: auto;
-        width: auto;
-        height: auto;
-    } 
+   .g-item{
+    padding:0 10px;
+   }
+   
+   
+    
     .g-item p{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     .g-item img{
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
 
     }
-    .game2-item{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2px;
-        top: 10px;
-        margin: auto;
-    }
+    
+    
     .g-item:hover{
         border: 4px solid rgb(229, 130, 146);
     }
