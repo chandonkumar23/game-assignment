@@ -170,11 +170,7 @@ li{
 }
 .online-title{
     font-size: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 900;
-    padding: 10px 0;
-}
-.funny{
+    font-family: Arial, Helvetica, sans-serif;         
     color: rgb(255, 70, 252);
 }
 .online-descritpion{
@@ -381,7 +377,7 @@ li{
     
     .container{
         flex-direction: column;
-        padding: 30px;
+        padding: 20px;
         width: auto;
         box-shadow: none;
     }
@@ -396,10 +392,12 @@ li{
     .text-content{
        padding: 20px;
        font-size: 1rem;
+       
     }
     .banner-img{
         width: 300px;
         height: 300px;
+       
        
     }
     .main-sectiion{
@@ -407,13 +405,12 @@ li{
         background: none;
         width: auto;
     }
-    .img-content img{
-        width: 350px;
-        height: 300px;
-        padding: 20px 0;
-      
-   
     
+    .img-content img{
+        height: 350px ;
+        width: 300px;
+        padding: 20px;
+        
        
     }
     .gammer-content{
